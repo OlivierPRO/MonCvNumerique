@@ -1,0 +1,558 @@
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+body{
+  background-image: url('assets/images/fondCv.jpg');
+}
+.navbar.navbar-1 .navbar-toggler-icon {
+  background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=000');
+}
+#ecran{
+  background:url('assets/images/ecran3.png') no-repeat;
+  background-size: 978px 552px;
+  width: 1000px;
+  height: 552px;
+}
+.ecranIn{
+  width: 870px;
+  height: 450px;
+  padding-left: 110px;
+  padding-top: 80px;
+
+}
+#alien{
+  height: 60px;
+	position: relative;
+	    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+	    animation: mymove 3s;
+		animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 320px;}
+}
+#olivier{
+  	-webkit-animation: rotation 2s infinite linear;
+  height: 100px;
+  padding-right: 30px;
+  padding-left: 30px;
+	animation-delay: 3s;
+}
+#olivier:hover{
+  transform: rotate(360deg);
+  transition: .8s;
+}
+#monNom{
+  margin-top: 25px;
+  font-size: 200%;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-shadow: 5px 5px 5px darkgrey;
+  color: #909293;
+}
+#webDev{
+  margin-top: 20px;
+  font-size: 200%;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-shadow: 5px 5px 5px darkgrey;
+  color: #909293;
+}
+hr.style14 {
+  border: 0;
+  height: 2px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  margin-top: 40px;
+}
+.logoEtudes{
+	transition: .8s;
+  width: 70px;
+	position: relative;
+			-webkit-animation: mymove3 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove3 3s;
+				animation-delay: 1s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove3 {
+		from {right: 0px;}
+		to {right: 300px;}
+	}
+.logoEtudes:hover{
+  transform: rotate(360deg);
+  transition: .8s;
+}
+.fontDiplome{
+  font-family: 'Indie Flower', cursive;
+  font-size: 150%;
+  color: #7a7777;
+}
+.logofleche{
+	width: 40px;
+  transition: .8s;
+	margin-top: 20px;
+margin-right: 30px;
+		position: relative;
+		    -webkit-animation: mymove2 5s infinite; /* Safari 4.0 - 8.0 */
+		    animation: mymove2 3s;
+				animation-delay: 1s;
+				animation-fill-mode: forwards;
+}
+@keyframes mymove2 {
+		from {left: -50px;}
+		to {left:  0px;}
+}
+.logofleche:hover{
+  transform: rotate(360deg);
+  transition: .8s;
+}
+.logoTravail{
+	margin-top: 20px;
+    transition: .8s;
+		position: relative;
+				-webkit-animation: mymove4 5s infinite; /* Safari 4.0 - 8.0 */
+				animation: mymove4 3s;
+				animation-delay: 1s;
+				animation-fill-mode: forwards;
+}
+@keyframes mymove4 {
+		from {right: 0px;}
+		to {right: 360px;}
+	}
+.logoTravail:hover{
+  transform: rotate(360deg);
+  transition: .8s;
+}
+.fontParcours{
+  font-family: 'Indie Flower', cursive;
+  color: #7a7777;
+  font-size: 150%;
+}
+.logoLoisirs{
+  width: 55px;
+  margin-top: 20px;
+	transition: .8s;
+}
+.logoLoisirs:hover{
+  transform: rotate(360deg);
+  transition: .8s;
+}
+.fontLoisirs{
+  font-size: 15px;
+  font-family: 'Indie Flower', cursive;
+  color: #7a7777;
+}
+body {
+  background-color: #1D1F20;
+}
+.progress-bar-vertical {
+  width: 50px;
+  min-height: 150px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 20px;
+  float: left;
+}
+.progress-bar-vertical .progress-bar {
+  width: 100%;
+  height: 0;
+  -webkit-transition: height 0.6s ease;
+  -o-transition: height 0.6s ease;
+  transition: height 0.6s ease;
+}
+.contain{
+  padding-bottom: 30px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.logoMoi{
+  width: 50px;
+  margin-top: 10px;
+}
+.logoMoi:hover{
+  transform: rotate(180deg);
+  transition: .8s;
+}
+
+.inBar:hover{
+  transform: rotate(-270deg);
+  transition: .8s;
+}
+.logoCompetences{
+  width: 55px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove5 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove5 3s;
+			animation-delay: 1s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove5 {
+		from {right: -50px;}
+		to {right: 370px;}
+	}
+.logoCompetences:hover{
+  transform: rotate(360deg);
+  transition: .8s;
+}
+.logoSociaux{
+  margin-top: 20px;
+  margin-left: 23px;
+}
+.modalBouton{
+  margin-top: 30px;
+  border-radius: 30px;
+  box-shadow: 6px 6px 12px black;
+}
+.modalBouton{
+  width: 190px;
+  font-family: 'Indie Flower', cursive;
+}
+.modal-title{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+  text-shadow: 6px 6px 6px black;
+}
+.idPhoto{
+  width: 190px;
+  height: 200px;
+  border-radius: 20px;
+}
+.idPhoto:hover{
+  transform: flip(180deg);
+  transition: .8s;
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+/*flipbox*/
+.flip-box {
+  background-color: transparent;
+  width: 190px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+  border-radius: 20px;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+  border-radius: 20px;
+}
+.flip-box-back {
+  background-color: #555;
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 20px;
+}
+#boutonHome {
+  margin-left: 340px;
+}
+#boutonHome:hover {
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+#boutonDiplome{
+  margin-left: 30px;
+}
+#boutonDiplome:hover{
+  	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+#boutonParcours{
+  margin-left: 30px;
+}
+#boutonParcours:hover{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+#boutonLoisirs{
+  margin-left: 30px;
+}
+#boutonLoisirs:hover{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+#boutonMoi{
+  margin-left: 30px;
+}
+#boutonMoi:hover{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+ul {
+list-style:none;
+}
+.tailleLogoSocial1{
+  width: 50px;
+    transition: .9s
+}
+.tailleLogoSocial1:hover{
+  width: 80px;
+  transition: .9s;
+}
+.btn-primary{
+  width: 190px;
+}
+
+.tailleLogoSocial2{
+  width: 40px;
+    transition: .9s
+}
+.tailleLogoSocial2:hover{
+  width: 70px;
+    transition: .9s
+}
+.logoSocial{
+  margin-top: 20px;
+  margin-left: 130px;
+
+}
+.margeNomModal{
+  margin-top: 30px;
+  margin-right: 20px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+}
+.mail:hover{
+  width: 50px;
+  transition: .9s
+}
+.mail{
+  width: 30px;
+  transition: .9s
+}
+.cell:hover{
+  width: 50px;
+  transition: .9s
+}
+.cell{
+  width: 30px;
+  transition: .9s
+}
+.woodyModal{
+	width: 60px;
+}
+.logoSocial:hover, .logoSociaux:hover{
+	animation: shake 0.5s;
+	animation-iteration-count: infinite;
+}
+
+
+#mySpan{
+	animation-delay: 3s;
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 320px;}
+}
+
+
+.inBar1{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 175px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove6 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove6 1s;
+			animation-delay: 1s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove6 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar2{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 175px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove7 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove7 1s;
+			animation-delay: 1.2s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove7 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar3{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 118px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove8 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove8 1s;
+			animation-delay: 1.4s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove8 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar4{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 175px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove9 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove9 1s;
+			animation-delay: 1.6s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove9 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar5{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 110px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove10 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove10 1s;
+			animation-delay: 1.8s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove10 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar6{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 150px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove11 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove11 1s;
+			animation-delay: 2s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove11 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar7{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 165px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove12 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove12 1s;
+			animation-delay: 2.2s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove12 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar8{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 150px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove13 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove13 1s;
+			animation-delay: 2.4s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove13 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar9{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 110px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove14 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove14 1s;
+			animation-delay: 2.6s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove14 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
+.inBar10{
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+	transform: rotate(270deg);
+	margin-top : 150px;
+	color: black;
+	transition: .8s;
+	position: relative;
+			-webkit-animation: mymove15 5s infinite; /* Safari 4.0 - 8.0 */
+			animation: mymove15 1s;
+			animation-delay: 2.8s;
+			animation-fill-mode: forwards;
+}
+@keyframes mymove15 {
+		from {bottom: -300px;}
+		to {bottom: 140px;}
+	}
